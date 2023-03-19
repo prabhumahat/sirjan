@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Srijan Pandey</title>
+    <link rel="icon" href="crop_srijan.png"><!--This tag is used to add the logo/icon in title bar-->
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            flex-direction: column;
+        }
+        nav{
+            display: flex;
+            /* border: 2px solid red; */
+            width: 100%;
+            justify-content: flex-end;
+            height: 5vh;
+            align-items: center;
+            margin: -4em 0 0 0;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        nav ul{
+            display: flex;
+            list-style: none;
+            gap: 3em;
+            margin: 0 2em;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: #111;
+            font-weight: 900;
+            font-size: 1.4em;
+        }
+        nav ul li a:hover{
+            color: rgb(97, 75, 15);
+        }
+        .background{
+            position: fixed;
+            z-index: -10;
+            height: 100vh;
+            width:100%;
+            background:linear-gradient(45deg, rgb(122, 109, 34) 0% 30%, rgb(49, 113, 129) 30% 35%, rgb(32, 221, 142) 35% 100%);
+        }
+        main{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: column;
+            box-shadow: 10px 10px 12px #000,
+                        inset -5px -5px 4px #00000067;
+            height: 80vh;
+            width: 100%;
+            /* border: 2px solid red; */
+            border-radius: 40px;
+            background: linear-gradient(135deg,aqua 0% 40%,#000 40% 40.1%,  transparent 40.1% 45%,#000 45% 45.15%, rgb(0, 255, 115) 45.15% 100%);
+        }
+        main .part-top{
+            /* border: 2px solid green; */
+            height: 80vh;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+        main .part-top .srijan{
+            box-shadow: 0 0 2px #000,
+                        0 0 5px #000;
+        }
+        main .part-top h1{
+            font-size: 3em;
+            font-family: 'Courier New', Courier, monospace;
+            letter-spacing: -2px;
+            color: #585858;
+            text-shadow: 2px 2px 2px #999;
+            font-weight:bolder;
+        }
+        main .part-bottom{
+            /* border: 2px solid red; */
+            height: 80vh;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+        .paragraph{
+            text-decoration: none;
+             font-family: 'Courier New', Courier, monospace; 
+             letter-spacing: -1px;
+             font-weight:900;
+             font-size:1.5em;
+             text-shadow: 1px 1px 1px #999;
+             margin: 15px 0 0 0;
+             padding: 0 15px;
+        }
+        .abbr
+        {
+            height: 80vh;
+            width: 80%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+        }
+
+        
+    </style><!--This tag is for Css-->
+</head>
+<body>
+    <div class="background">
+    </div>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="c.v.html">About Me</a></li>
+            <li><a href="download_cv.html">Download Cv</a></li>
+        </ul>
+    </nav>
+    <abbr title="This is main tag which contains all the necessary element which have background color of linear-gradient." class="abbr"><main>
+        <div class="part-top">
+            <abbr title="This is an image inserted using <img> tag in html which contains 4px of border in solid state with 50% border-radius"><img src="crop_srijan.png" alt="srijan" width="200px" style="margin: 20px 0 0 0;border: 5px solid yellow; border-radius: 50%;" class="srijan"></abbr>
+            <abbr title="H1 tag" style="text-decoration: none;"><h1>Srijan_Pandey</h1></abbr>
+        </div>
+
+        <div class="part-bottom">
+            <abbr title="paragraph tag " class="paragraph"><p><center>It's Me Srijan Pandey.<br>
+                 A student of Mahakavi Devkota Model Secondary School.<br>
+                 And this is small and preety webpage which i am making for the computer project.<br>
+                 Cause of project like this the practical skill also increase for the advance web-designing and many more.
+            </p></center></abbr>
+        </div>
+        
+    </main></abbr>
+    
+</body>
+</html>
